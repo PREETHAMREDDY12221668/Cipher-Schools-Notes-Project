@@ -1,0 +1,18 @@
+.brand{
+    display: flex;
+    align-items: center;
+    img{
+        width: 65px;
+        height: 65px;
+        margin-right: 12px;
+    }
+    h1{
+        
+        font-size: var(--fs-brandlogo);
+        span{
+            font-weight: var(--fw-pale);
+            font-size: inherit;
+            font-family: "Nunito", sans-serif;
+        }
+    }
+}

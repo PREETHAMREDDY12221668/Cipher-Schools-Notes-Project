@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Home",
+        "icon": "hugeicons:home-03",
+        "path": "/notes"
+    },
+    {
+        "title": "Add",
+        "icon": "mi:add",
+        "path": "/notes"
+    }
+    
+]

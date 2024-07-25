@@ -1,0 +1,46 @@
+.header{
+    display: grid;
+    grid-template-columns: auto 60px;
+    gap: 80px;
+    width: 100%;
+    padding: 20px 6rem 0 6rem; 
+    padding-top: 30px;
+    align-items: center;
+    @media screen and (min-width:1400px) {
+        padding: 10px 12rem;
+        padding-top: 30px;
+    }
+    .searchbar{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        font-size: var(--fs-l);
+        font-weight: var(--fw-light);
+        
+    .field{
+        width: 100%;
+        input{
+            border: none;
+            padding-top: 8px 10px;
+            font-size: var(--fs-m);
+            &:active{
+                border: none;
+                outline: none;
+            }
+        }
+    }
+        svg{
+            width: 24px;
+            height: 24px;
+            color: #808080;
+            ;
+        }
+    }
+    .theme{
+        svg{
+            width: 30px;
+            height: 30px;
+            color: var(--grey-400);
+        }
+    }
+}
