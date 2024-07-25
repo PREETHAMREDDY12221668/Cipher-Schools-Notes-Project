@@ -1,0 +1,29 @@
+.form{
+    display: flex;
+    margin-top:45px;
+    flex-direction: column;
+    .options{
+        border: 1px solid var(--grey-300);
+        height: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        span{
+            z-index: 1;
+            background-color: var(--white);
+            position: absolute;   
+            color:var(--grey-300);
+            padding: 0px 8px 0px 8px;
+        }
+    }
+    .details{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .EmailBtn{
+        background-color: var(--semantic-green);
+    }
+}
